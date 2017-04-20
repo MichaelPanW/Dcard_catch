@@ -1,0 +1,1 @@
+<?php	namespace Trade\Controller;	use Think\Controller;	class GlobalController extends Controller 	{	function _initialize() 	{	}	}?>	
