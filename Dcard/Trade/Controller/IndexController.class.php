@@ -13,4 +13,11 @@
 			$this->assign("class",$classif);
 			$this->display();
 		}
+		public function show(){
+			$article=D("article")->limit(50)->select();
+			foreach ($article as $key => $value) {
+				# code...
+				echo utf8_decode(($value[title]))."<br>";
+			}
+		}
 	}	

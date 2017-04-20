@@ -86,14 +86,17 @@ class AjaxController extends GlobalController {
 			$end='"';
 			$data[title]=$this->search($content,$start,$end);
 
+			$data[title]=utf8_encode($data[title]);
 			$start='<div class="Post_content_1xpMb"';
-			$end='<footer>';
+			$end='<footer';
 			$data[content]='<div class="Post_content_1xpMb"'.$this->search($content,$start,$end);
+			//$data[content]=str_replace("'",'"',$data[content]);
+			$data[content]=utf8_encode($data[content]);
 			$start='"forumName":"';
 			$end='"';
 			$data[classif]=$this->search($content,$start,$end);
 			$data[status]=1;
-			D("article")->where("id=".$value[id])->data($data)->save();
+			@D("article")->where("id=".$value[id])->data($data)->save();
 
 		}
 		echo  date("Y-m-d H:i:s")."  <p  style='color:red;'>資料庫重整</p><br>";
@@ -107,4 +110,4 @@ class AjaxController extends GlobalController {
 			-strpos($content, $head,$startkey)-strlen($head));
 		return $url;
 	}
-}	
+}	//http://together.nuucloud.com/index.php/Ajax/article.html
