@@ -1,0 +1,798 @@
+[ 2017-04-29T21:23:09+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008211s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2017-04-29T21:23:34+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2017-04-29T21:24:14+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-04-29T21:25:30+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+NOTIC: [2] preg_match_all(): Unknown modifier 't' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\AjaxController.class.php 第 130 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-29T21:25:53+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-04-29T21:28:19+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-04-29T21:29:00+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-04-29T21:29:41+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: syntax error, unexpected '"123"' (T_CONSTANT_ENCAPSED_STRING)
+
+[ 2017-04-29T21:29:50+08:00 ] 127.0.0.1 /index.php/Ajax/hiddcheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-04-29T21:39:11+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Declaration of Trade\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.4343s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `article` WHERE ( status=1 ) LIMIT 0,30   [ RunTime:0.1009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-04-29T21:39:15+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2] Declaration of Trade\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0321s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `article` WHERE ( status=1 ) LIMIT 0,30   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-04-29T21:39:27+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] Declaration of Trade\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `article` WHERE ( status=1 ) LIMIT 0,30   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-04-29T21:39:28+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] Declaration of Trade\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `article` WHERE ( status=1 ) LIMIT 0,30   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-04-29T21:41:02+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Use of undefined constant TMPL_PARSE_STRING - assumed 'TMPL_PARSE_STRING' D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2] Declaration of Trade\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `classif` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `classif` WHERE ( status=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Dcard_catch\Dcard\Trade\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `article` WHERE ( status=1 ) LIMIT 0,30   [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 26 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\Dcard_catch\Dcard\Runtime\Cache\Trade\0525c782be5d55afd63a61aa16d0abe5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+

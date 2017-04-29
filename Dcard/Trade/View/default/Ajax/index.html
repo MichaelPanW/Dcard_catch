@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="initial();">
+	
+<p>倒數時間:</p>
+<div id="countdown"> </div> 
+<div id="box"></div>
+</body>
+<script src="__PUBLIC__/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+var time=1800;
+var countdownnumber=time;
+var countdownid,x;
+function initial(){
+  x=document.getElementById("countdown");
+  x.innerHTML=countdownnumber;
+  countdownnumber--;
+  countdownid=window.setInterval(countdownfunc,1000);
+}
+function countdownfunc(){ 
+  x.innerHTML=countdownnumber;
+  if (countdownnumber==0){
+  	 oneturn();
+    countdownnumber=time;
+  }
+  countdownnumber--;
+}
+oneturn();
+	function oneturn(){
+        $.ajax({
+            method: 'get',
+            data: {
+            },
+            url: "{:u('Ajax/article')}",
+            success: function(res) {
+                //alert(res);
+                $("<span>"+res+"<span>").insertAfter("#box");
+            },
+            error: function(request, error) {
+                console.log(arguments);
+                console.log(request);
+            }
+
+        });
+<foreach name="classif" item="vo">
+        $.ajax({
+            method: 'get',
+            data: {
+                class: "{$vo[tag]}"
+            },
+            url: "{:u('Ajax/content')}",
+            success: function(res) {
+                //alert(res);
+                $("<span>"+res+"<span>").insertAfter("#box");
+            },
+            error: function(request, error) {
+                console.log(arguments);
+                console.log(request);
+            }
+
+        });
+	</foreach>
+}
+</script>
+</html>

@@ -1,0 +1,13 @@
+<include file="Public:header" />
+<div class="container fix_content">
+<a href="{:u('Index/index')}?class={$article.classif}"><span class="label label-warning">{$article.classif}</span></a>
+<h2>{$article[title]}</h2>
+<div>
+{$article[content]}
+</div>
+<a href="{$article[url]}">原文章</a>
+<br>
+</div>
+<include file="Public:footer" />
+<script>
+</script>
