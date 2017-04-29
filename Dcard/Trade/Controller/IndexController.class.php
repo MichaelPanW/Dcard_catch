@@ -29,6 +29,7 @@ class IndexController extends GlobalController {
 		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->select();
 		foreach ($article as $key => $value) {
 			$article[$key]['title']=utf8_decode($value['title']);
+			$article[$key]['title']=strip_tags($article[$key]['title']);
 			$article[$key]['content']=utf8_decode($value['content']);
 			$article[$key]['content']=strip_tags($article[$key]['content']);
 			# code...

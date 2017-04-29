@@ -46,6 +46,19 @@ oneturn();
             }
 
         });
+        $.ajax({
+            method: 'get',
+            data: {
+            },
+            url: "{:u('Ajax/hiddcheck')}",
+            success: function(res) {
+            },
+            error: function(request, error) {
+                console.log(arguments);
+                console.log(request);
+            }
+
+        });
 <foreach name="classif" item="vo">
         $.ajax({
             method: 'get',
