@@ -27,6 +27,7 @@
 					$data['id']=$match[0];
 					$data['url']="https://www.dcard.tw".$retu;
 					$data['time']=time();
+					$data['uptime']=time();
 					$count=D("article")->where("id=".$data['id'])->count();
 					if(!$count){
 						echo date("Y-m-d H:i:s")."  ".$data['url']."<br>";
@@ -48,6 +49,7 @@
 					$data['id']=$match[0];
 					$data['url']="https://www.dcard.tw".$retu;
 					$data['time']=time();
+					$data['uptime']=time();
 					$count=D("article")->where("id=".$data['id'])->count();
 					if(!$count){
 						echo date("Y-m-d H:i:s")."  ".$data['url']."<br>";
