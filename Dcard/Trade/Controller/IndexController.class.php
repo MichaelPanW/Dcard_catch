@@ -10,11 +10,16 @@ class IndexController extends GlobalController {
 	public function index()
 	{
 		if($_GET['title']!=""){
-			$where="title like '%".utf8_encode($_GET['title'])."%' and ";
+			$where.="title like '%".utf8_encode($_GET['title'])."%' and ";
 		}
 		if($_GET['class']!=""){
-			$where="classif='".$_GET['class']."' and ";
+			$where.="classif='".$_GET['class']."' and ";
 		}
+		if($_GET['hidd']!=""){
+			$where.="hidd='".$_GET['hidd']."' and ";
+
+		}
+		//dump($where);
 		$count = D("article")->where($where."status=1")->count();
 		$pagwAllA = new \Think\Page($count, 30);
 		$pagwAllA->setConfig('prev',"上頁");

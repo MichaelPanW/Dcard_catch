@@ -127,7 +127,8 @@ class AjaxController extends GlobalController {
 	function hiddcheck(){
 
 		D("article")->where("hidd=0 and status=1 and url like '%公告%'")->data("status=0")->save();
-		$article=D("article")->where("hidd=0 and status=1")->select();
+		
+		$article=D("article")->where("hidd=0 and status=1")->limit("100")->select();
 		foreach ($article as $key => $value) {
 		$url=$value['url'];
 
