@@ -128,6 +128,7 @@
 		}
 		function hiddcheck(){
 			
+			D("article")->where("`classif` LIKE '%html%'")->delete();
 			D("article")->where("hidd=0 and status=1 and url like '%公告%'")->data("status=0")->save();
 			
 			$article=D("article")->where("hidd=0 and status=1")->limit("100")->order("uptime asc")->select();
