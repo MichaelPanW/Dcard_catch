@@ -1,1 +1,1 @@
-<?php	namespace Trade\Controller;	use Think\Controller;	class GlobalController extends Controller 	{	function _initialize() 	{		$classif=D("classif")->where("status=1")->select();		$this->assign('classif',$classif);	}	}?>	
+<?php	namespace Trade\Controller;	use Think\Controller;	class GlobalController extends Controller 	{	function _initialize() 	{		$classif=D("classif")->where("status=1")->select();		$title="Ccard - 找回已消失的文章";		$this->assign('classif',$classif);		$this->assign('title',$title);	}	}?>	

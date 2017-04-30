@@ -47,6 +47,8 @@ class IndexController extends GlobalController {
 			$article['title']=utf8_decode($article['title']);
 			$article['content']=utf8_decode($article['content']);
 		$this->assign('article',$article);
+		$this->assign('title',"Ccard - ".$article['title']);
+
 		$this->display();
 	}
 }	

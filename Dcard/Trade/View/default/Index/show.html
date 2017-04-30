@@ -1,6 +1,9 @@
 <include file="Public:header" />
 <div class="container fix_content">
 <a href="{:u('Index/index')}?class={$article.classif}"><span class="label label-warning">{$article.classif}</span></a>
+            <if condition="$article[hidd] eq 1">
+            <span class="label label-danger">已消失</span>
+            </if>
 <h2>{$article[title]}</h2>
 <div>
 {$article[content]}
@@ -9,5 +12,3 @@
 <br>
 </div>
 <include file="Public:footer" />
-<script>
-</script>

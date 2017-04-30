@@ -3,19 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ccard</title>
+    <title>{$title}</title>
     <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
     <link rel="stylesheet" href="__PUBLIC__/css/style.css">
-    <LINK REL="SHORTCUT ICON"
-       HREF="__PUBLIC__/image/logo.png">
+    <LINK REL="SHORTCUT ICON" HREF="__PUBLIC__/image/logo.png">
+    <meta name="keywords" content="Dcard,Ccard,消失,文章,西斯,
+                            <foreach name="classif" item="vo">
+                            {$vo[title]},
+                            </foreach>" />
+    <meta data-react-helmet="true" name="twitter:title" content="Ccard" />
+    <meta data-react-helmet="true" name="description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
+    <meta data-react-helmet="true" property="og:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
+    <meta data-react-helmet="true" name="twitter:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
 </head>
 
 <body>
-    <div class="container navbar-fixed-top fix_head">
+<div class="fix_head navbar-fixed-top">
+    <div class="container  ">
         <div class="navbar-header">
             <a href="{:u('Index/index')}">
                 <p class="logo">
-            <img src="__PUBLIC__/image/face.png" /></p>
+                    <img src="__PUBLIC__/image/face.png" /></p>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
@@ -54,3 +62,4 @@
             </form>
         </div>
     </div>
+</div>
