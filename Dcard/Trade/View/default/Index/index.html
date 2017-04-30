@@ -1,29 +1,28 @@
 <include file="Public:header" />
-
-    <div class="fix_content">
-<div class="container ">
-    <div class="btn-group">
-        {$pageShowA}</div>
-    <ul class="nav nav-sidebar">
-        <foreach name="article" item="vo">
-            <li>
-                <a href="{:u('Index/show')}?id={$vo.id}">
-                    <h4>
-            <span class="label label-warning">{$vo.classif}</span>
-            <if condition="$vo[hidd] eq 1">
-            <span class="label label-danger">已消失</span>
-            </if>
+<div class="fix_content">
+    <div class="container ">
+        <div class="btn-group page_div">
+            {$pageShowA}</div>
+        <ul class="nav nav-sidebar">
+            <foreach name="article" item="vo">
+                <li>
+                    <a href="{:u('Index/show')}?id={$vo.id}">
+                        <h4>
+                        <span class="label label-warning">{$vo.classif}</span>
+                    <if condition="$vo[hidd] eq 1">
+                        <span class="label label-danger">已消失</span>
+                    </if>
             {$vo[title]}
             </h4>
-                    <p>{$vo['content']|mb_substr=0,100,'utf-8'}</p>
-                </a>
-            </li>
-        </foreach>
-    </ul>
-    <div class="btn-group pull-right">
-        {$pageShowA}</div>
+                        <p>{$vo['content']|mb_substr=0,100,'utf-8'}</p>
+                    </a>
+                </li>
+            </foreach>
+        </ul>
+        <div class="btn-group pull-right page_div">
+            {$pageShowA}</div>
         <br>
-</div>
+    </div>
 </div>
 <include file="Public:footer" />
 <script>
