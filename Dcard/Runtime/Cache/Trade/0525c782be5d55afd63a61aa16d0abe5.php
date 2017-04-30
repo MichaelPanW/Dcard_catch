@@ -13,6 +13,7 @@
     <meta data-react-helmet="true" name="description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta data-react-helmet="true" property="og:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta data-react-helmet="true" name="twitter:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -55,27 +56,26 @@
         </div>
     </div>
 </div>
-
-    <div class="fix_content">
-<div class="container ">
-    <div class="btn-group">
-        <?php echo ($pageShowA); ?></div>
-    <ul class="nav nav-sidebar">
-        <?php if(is_array($article)): foreach($article as $key=>$vo): ?><li>
-                <a href="<?php echo u('Index/show');?>?id=<?php echo ($vo["id"]); ?>">
-                    <h4>
-            <span class="label label-warning"><?php echo ($vo["classif"]); ?></span>
-            <?php if($vo[hidd] == 1): ?><span class="label label-danger">已消失</span><?php endif; ?>
+<div class="fix_content">
+    <div class="container ">
+        <div class="btn-group page_div">
+            <?php echo ($pageShowA); ?></div>
+        <ul class="nav nav-sidebar">
+            <?php if(is_array($article)): foreach($article as $key=>$vo): ?><li>
+                    <a href="<?php echo u('Index/show');?>?id=<?php echo ($vo["id"]); ?>">
+                        <h4>
+                        <span class="label label-warning"><?php echo ($vo["classif"]); ?></span>
+                    <?php if($vo[hidd] == 1): ?><span class="label label-danger">已消失</span><?php endif; ?>
             <?php echo ($vo[title]); ?>
             </h4>
-                    <p><?php echo (mb_substr($vo['content'],0,100,'utf-8')); ?></p>
-                </a>
-            </li><?php endforeach; endif; ?>
-    </ul>
-    <div class="btn-group pull-right">
-        <?php echo ($pageShowA); ?></div>
+                        <p><?php echo (mb_substr($vo['content'],0,100,'utf-8')); ?></p>
+                    </a>
+                </li><?php endforeach; endif; ?>
+        </ul>
+        <div class="btn-group pull-right page_div">
+            <?php echo ($pageShowA); ?></div>
         <br>
-</div>
+    </div>
 </div>
 <script src="/Public/Dcard/js/jquery/jquery-1.12.4.js">
 </script>

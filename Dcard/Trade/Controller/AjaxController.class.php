@@ -100,6 +100,7 @@
 				$content=file_get_contents($url);
 				$start='"title":"';
 				$end='"';
+				//標題
 				$data[title]=$this->search($content,$start,$end);
 				
 				$data[title]=utf8_encode($data[title]);
@@ -112,6 +113,12 @@
 				$end='"';
 				$data[classif]=$this->search($content,$start,$end);
 				$data[status]=1;
+				//按讚數
+			preg_match("/喜歡 [0-9-,]+<\/span>/", $content,$match);
+			$number=str_replace("喜歡 ", "", $match[0]);
+			$number=str_replace("</span>", "", $number);
+			$number=str_replace(",", "", $number);
+			$data[alike]=$number;
 				@D("article")->where("id=".$value[id])->data($data)->save();
 				
 			}
@@ -139,6 +146,11 @@
 				
 				preg_match("/<title data-react-helmet=\"true\">.+<\/title>/",$content,$match);
 				$data['uptime']=time();
+			preg_match("/喜歡 [0-9-,]+<\/span>/", $content,$match);
+			$number=str_replace("喜歡 ", "", $match[0]);
+			$number=str_replace("</span>", "", $number);
+			$number=str_replace(",", "", $number);
+			$data[alike]=$number;
 				if($match[0]=='<title data-react-helmet="true">Dcard</title>'){
 					$data['hidd']=1;
 				}
@@ -147,5 +159,17 @@
 				unset($data);
 			}
 			
+		}
+		function test(){
+			$url="https://www.dcard.tw/f/relationship/p/226287308-%EF%BC%83%E6%9B%B4-%E4%BD%A0%E5%A7%90%E6%AF%94%E4%BD%A0%E6%AD%A3";
+				$content=file_get_contents($url);
+			preg_match("/喜歡 ^[0-9-,]+<\/span>/", $content,$match);
+			$number=str_replace("喜歡 ", "", $match[0]);
+			$number=str_replace("</span>", "", $number);
+			$number=str_replace(",", "", $number);
+			dump($match);
+
+
+
 		}
 	}	//http://together.nuucloud.com/index.php/Ajax/article.html	

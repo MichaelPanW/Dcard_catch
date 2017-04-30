@@ -13,6 +13,7 @@
     <meta data-react-helmet="true" name="description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta data-react-helmet="true" property="og:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta data-react-helmet="true" name="twitter:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -71,7 +72,7 @@
 <script src="/Public/Dcard/js/facebook.js"></script>
 <div class="container">
     <script>
-    show_fb_talks("talksfb", $(".fix_content").width(), "", "<?php echo ($article[url]); ?>");
+    show_fb_talks("talksfb", $(".container").width(), "", "<?php echo ($article[url]); ?>");
     </script>
 </div>
 <footer>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>{$title}</title>
+    <link rel="canonical" href="./regular-html-version.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom>
+      h1 {color: red}
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": location,
+      "@type": "NewsArticle",
+      "headline": "{$article[title]}",
+      "image": [
+        "__PUBLIC__/image/face.png"
+      ],
+      "datePublished": "{$article[time]|date='Y-m-d',###}"
+    }
+    </script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    {$amp}
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+<link  rel = "canonical"  href = "{:u('index/show')}?id={$_GET['id']}" >
+  </head>
+  <body>
+    <h1>{$article[title]}</h1>
+    <p>
+      {$article[content]}
+    </p>
+  </body>
+</html>
