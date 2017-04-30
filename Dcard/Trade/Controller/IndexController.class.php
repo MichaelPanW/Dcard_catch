@@ -26,7 +26,7 @@ class IndexController extends GlobalController {
 		$pagwAllA->setConfig('next',"下頁");
 		$pagwAllA->setConfig('theme',"%UP_PAGE% %LINK_PAGE% %DOWN_PAGE%");
 		$pageShowA = $pagwAllA->show();
-		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->select();
+		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->order("uptime DESC")->select();
 		foreach ($article as $key => $value) {
 			$article[$key]['title']=utf8_decode($value['title']);
 			$article[$key]['title']=strip_tags($article[$key]['title']);

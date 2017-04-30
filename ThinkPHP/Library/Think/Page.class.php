@@ -132,7 +132,7 @@ class Page{
                 }
             }else{
                 if($page > 0 && $this->totalPages != 1){
-                    $link_page .= '<span class="current"><button type="button" class="btn btn-default">' . $page . '</button></span>';
+                    $link_page .= '<span class=" "><button type="button" class="btn btn-default active">' . $page . '</button></span>';
                 }
             }
         }

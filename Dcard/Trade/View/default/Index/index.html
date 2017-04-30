@@ -8,6 +8,9 @@
                 <a href="{:u('Index/show')}?id={$vo.id}">
                     <h4>
             <span class="label label-warning">{$vo.classif}</span>
+            <if condition="$vo[hidd] eq 1">
+            <span class="label label-danger">已消失</span>
+            </if>
             {$vo[title]}
             </h4>
                     <p>{$vo['content']|mb_substr=0,100,'utf-8'}</p>

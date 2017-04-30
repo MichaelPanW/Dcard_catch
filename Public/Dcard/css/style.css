@@ -31,6 +31,11 @@ a {
 footer{
 	border: 1pt solid #cecece;
 }
+.logo img{
+    height: 30pt;
+    width: auto;
+    vertical-align: middle;
+}
 .logo{
     font-size: 30pt;
     color: #fff;
@@ -47,4 +52,8 @@ footer{
 .fix_content{
     padding-top: 100px;
     background: #dedede;
+    min-height: 1000px;
+}
+.fix_content img{
+    width: 100%;
 }

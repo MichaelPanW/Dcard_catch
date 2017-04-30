@@ -6,13 +6,16 @@
     <title>Ccard</title>
     <link rel="stylesheet" href="/Public/Dcard/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Public/Dcard/css/style.css">
+    <LINK REL="SHORTCUT ICON"
+       HREF="/Public/Dcard/image/logo.png">
 </head>
 
 <body>
     <div class="container navbar-fixed-top fix_head">
         <div class="navbar-header">
             <a href="<?php echo u('Index/index');?>">
-                <p class="logo">Ccard</p>
+                <p class="logo">
+            <img src="/Public/Dcard/image/face.png" /></p>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
@@ -54,6 +57,7 @@
                 <a href="<?php echo u('Index/show');?>?id=<?php echo ($vo["id"]); ?>">
                     <h4>
             <span class="label label-warning"><?php echo ($vo["classif"]); ?></span>
+            <?php if($vo[hidd] == 1): ?><span class="label label-danger">已消失</span><?php endif; ?>
             <?php echo ($vo[title]); ?>
             </h4>
                     <p><?php echo (mb_substr($vo['content'],0,100,'utf-8')); ?></p>
