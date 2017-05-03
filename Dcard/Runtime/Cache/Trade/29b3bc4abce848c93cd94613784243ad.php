@@ -6,6 +6,11 @@
     <title><?php echo ($title); ?></title>
     <link rel="stylesheet" href="/Public/Dcard/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Public/Dcard/css/style.css">
+        <!--1280以下--><!--ipad 橫放/電腦螢幕-->
+        <link href="/Public/Dcard/css/style-large.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 770px) and (max-width: 1280px)"  />
+        
+        <!--手機直立/手機橫放/ipad直立-->
+        <link href="/Public/Dcard/css/style-small.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 769px)" />
     <LINK REL="SHORTCUT ICON" HREF="/Public/Dcard/image/logo.png">
     <meta name="keywords" content="Dcard,Ccard,消失,文章,西斯,
                             <?php if(is_array($classif)): foreach($classif as $key=>$vo): echo ($vo[title]); ?>,<?php endforeach; endif; ?>" />
@@ -25,7 +30,7 @@
                     <img src="/Public/Dcard/image/face.png" /></p>
             </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-right">
+        <div id="navbar" class="navbar-collapse  navbar-right">
             <form action="<?php echo u('Index/index');?>" class="navbar-form form-inline " method="get" role="form">
                 <ul class="nav navbar-nav search_ul " style="padding-left: 50px ">
                     <li class="form-group">
@@ -56,6 +61,7 @@
         </div>
     </div>
 </div>
+<link  rel = "amphtml"  href = "<?php echo u('index/amp');?>?id=<?php echo ($_GET['id']); ?>" >
 <div class="container fix_content">
 <a href="<?php echo u('Index/index');?>?class=<?php echo ($article["classif"]); ?>"><span class="label label-warning"><?php echo ($article["classif"]); ?></span></a>
             <?php if($article[hidd] == 1): ?><span class="label label-danger">已消失</span><?php endif; ?>

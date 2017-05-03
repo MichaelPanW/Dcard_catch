@@ -6,6 +6,11 @@
     <title>{$title}</title>
     <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
     <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+        <!--1280以下--><!--ipad 橫放/電腦螢幕-->
+        <link href="__PUBLIC__/css/style-large.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 770px) and (max-width: 1280px)"  />
+        
+        <!--手機直立/手機橫放/ipad直立-->
+        <link href="__PUBLIC__/css/style-small.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 769px)" />
     <LINK REL="SHORTCUT ICON" HREF="__PUBLIC__/image/logo.png">
     <meta name="keywords" content="Dcard,Ccard,消失,文章,西斯,
                             <foreach name="classif" item="vo">
@@ -27,7 +32,7 @@
                     <img src="__PUBLIC__/image/face.png" /></p>
             </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-right">
+        <div id="navbar" class="navbar-collapse  navbar-right">
             <form action="{:u('Index/index')}" class="navbar-form form-inline " method="get" role="form">
                 <ul class="nav navbar-nav search_ul " style="padding-left: 50px ">
                     <li class="form-group">

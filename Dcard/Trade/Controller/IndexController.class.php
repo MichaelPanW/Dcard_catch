@@ -26,7 +26,7 @@ class IndexController extends GlobalController {
 		$pagwAllA->setConfig('next',"下頁");
 		$pagwAllA->setConfig('theme',"%UP_PAGE% %LINK_PAGE% %DOWN_PAGE%");
 		$pageShowA = $pagwAllA->show();
-		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->order("uptime DESC")->select();
+		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->order("alike DESC")->select();
 		foreach ($article as $key => $value) {
 			$article[$key]['title']=utf8_decode($value['title']);
 			$article[$key]['title']=strip_tags($article[$key]['title']);
@@ -46,6 +46,7 @@ class IndexController extends GlobalController {
 		}
 			$article['title']=utf8_decode($article['title']);
 			$article['content']=utf8_decode($article['content']);
+			$article['content']=str_replace('href="/', 'href="https://www.dcard.tw/', $article['content']);
 		$this->assign('article',$article);
 		$this->assign('title',"Ccard - ".$article['title']);
 
