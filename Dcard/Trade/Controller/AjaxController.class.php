@@ -25,12 +25,12 @@
 				$retu=$this->search($content,$start,$end,$num);
 				if(preg_match("/[0-9]+/", $retu,$match)){
 					$data['id']=$match[0];
-					$data['url']="https://www.dcard.tw".$retu;
+					$data['url']=utf8_encode("https://www.dcard.tw".$retu);
 					$data['time']=time();
 					$data['uptime']=time();
 					$count=D("article")->where("id=".$data['id'])->count();
 					if(!$count){
-						echo date("Y-m-d H:i:s")."  ".$data['url']."<br>";
+						echo date("Y-m-d H:i:s")."  ".utf8_decode($data['url'])."<br>";
 						D("article")->data($data)->add();
 					}
 				}
@@ -47,12 +47,12 @@
 				$retu=$this->search($content,$start,$end,$num);
 				if(preg_match("/[0-9]+/", $retu,$match)){
 					$data['id']=$match[0];
-					$data['url']="https://www.dcard.tw".$retu;
+					$data['url']=utf8_encode("https://www.dcard.tw".$retu);
 					$data['time']=time();
 					$data['uptime']=time();
 					$count=D("article")->where("id=".$data['id'])->count();
 					if(!$count){
-						echo date("Y-m-d H:i:s")."  ".$data['url']."<br>";
+						echo date("Y-m-d H:i:s")."  ".utf8_decode($data['url'])."<br>";
 						D("article")->data($data)->add();
 					}
 				}
@@ -96,7 +96,7 @@
 		public function article(){
 			$article=D("article")->where("status=0")->select();
 			foreach ($article as $key => $value) {
-				$url=$value['url'];
+				$url=utf8_decode($value['url']);
 				$content=file_get_contents($url);
 				$start='"title":"';
 				$end='"';
@@ -136,11 +136,12 @@
 		function hiddcheck(){
 			
 			D("article")->where("`classif` LIKE '%html%'")->delete();
-			D("article")->where("hidd=0 and status=1 and url like '%公告%'")->data("status=0")->save();
+			$wh=utf8_encode("公告");
+			D("article")->where("hidd=0 and status=1 and url like '%".$wh."%'")->data("status=0")->save();
 			
 			$article=D("article")->where("hidd=0 and status=1")->limit("100")->order("uptime asc")->select();
 			foreach ($article as $key => $value) {
-				$url=$value['url'];
+				$url=utf8_decode($value['url']);
 				
 				$content=file_get_contents($url);
 				
@@ -171,5 +172,16 @@
 
 
 
+		}
+		function deurl(){
+ini_set('memory_limit', '256M');
+
+			$article=D("article")->select();
+			foreach ($article as $key => $value) {
+
+				$data['url']=str_replace("'","",$value['url']);
+				D("article")->where("id=".$value['id'])->data($data)->save();
+				# code...
+			}
 		}
 	}	//http://together.nuucloud.com/index.php/Ajax/article.html	

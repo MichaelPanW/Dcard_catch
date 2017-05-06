@@ -28,6 +28,7 @@ class IndexController extends GlobalController {
 		$pageShowA = $pagwAllA->show();
 		$article=D("article")->where($where."status=1")->limit($pagwAllA->firstRow,$pagwAllA->listRows)->order("alike DESC")->select();
 		foreach ($article as $key => $value) {
+			$article[$key]['url']=utf8_decode($value['url']);
 			$article[$key]['title']=utf8_decode($value['title']);
 			$article[$key]['title']=strip_tags($article[$key]['title']);
 			$article[$key]['content']=utf8_decode($value['content']);
@@ -45,6 +46,7 @@ class IndexController extends GlobalController {
 			$this->redirect("Index/index");
 		}
 			$article['title']=utf8_decode($article['title']);
+			$article['url']=utf8_decode($article['url']);
 			$article['content']=utf8_decode($article['content']);
 			$article['content']=str_replace('href="/', 'href="https://www.dcard.tw/', $article['content']);
 		$this->assign('article',$article);
@@ -58,6 +60,7 @@ class IndexController extends GlobalController {
 			$this->redirect("Index/index");
 		}
 			$article['title']=utf8_decode($article['title']);
+			$article['url']=utf8_decode($article['url']);
 			$article['content']=utf8_decode($article['content']);
 			$article['content']=str_replace("img", "amp-img", $article['content']);
 			$amp='
