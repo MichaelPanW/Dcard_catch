@@ -11,31 +11,40 @@
 			$this->display();
 			
 		}
+		//抓取內容 get class分類名
 		public function content()
 		{
-			
+			//最新查詢區
 			$url="https://www.dcard.tw".$_GET['class']."?latest=true";
 			$start='"PostEntry_entry_2rsgm" href="';
 			$end='"';
+			//讀取網站
 			$content=file_get_contents($url);
 			$num=1;
 			//echo $content;
+			//逐一讀取
 			while(strpos($content, $start,$num)>0 && strpos($content, $end,$num)>0 && $num>0){
 				
 				$retu=$this->search($content,$start,$end,$num);
 				if(preg_match("/[0-9]+/", $retu,$match)){
 					$data['id']=$match[0];
+					//將文章網址轉碼存進資料庫
 					$data['url']=utf8_encode("https://www.dcard.tw".$retu);
+					//抓取時間
 					$data['time']=time();
+					//檢查時間
 					$data['uptime']=time();
+					//查查看是否以抓取
 					$count=D("article")->where("id=".$data['id'])->count();
 					if(!$count){
+						//新增進資料庫
 						echo date("Y-m-d H:i:s")."  ".utf8_decode($data['url'])."<br>";
 						D("article")->data($data)->add();
 					}
 				}
 				$num=strpos($content,$start,strpos($content, $start,$num)+strlen($start));
 			}
+			//搜尋最熱門
 			$url="https://www.dcard.tw".$_GET['class'];
 			$start='"PostEntry_entry_2rsgm" href="';
 			$end='"';
@@ -60,7 +69,7 @@
 			}
 			echo "<p  style='color:red;'>".$_GET['class']."結束</p><br>";
 		}
-		
+		//抓分類名 僅一次即可 
 		public function classif(){
 			
 			
@@ -92,8 +101,9 @@
 			dump($match);
 			dump($amatch);
 		}
-		
+		//抓文章內容
 		public function article(){
+			//查找分類
 			$article=D("article")->where("status=0")->select();
 			foreach ($article as $key => $value) {
 				$url=utf8_decode($value['url']);
@@ -111,6 +121,7 @@
 				$data[content]=utf8_encode($data[content]);
 				$start='"forumName":"';
 				$end='"';
+				//類別名
 				$data[classif]=$this->search($content,$start,$end);
 				$data[status]=1;
 				//按讚數
@@ -124,6 +135,7 @@
 			}
 			echo  date("Y-m-d H:i:s")."  <p  style='color:red;'>資料庫重整</p><br>";
 		}
+		//搜尋的方選 內容 開始資料 結束資料 從第幾個字開始
 		function search($content,$start,$end,$startkey=0){
 			$head=$start;
 			$end=$end;
@@ -133,12 +145,13 @@
 			-strpos($content, $head,$startkey)-strlen($head));
 			return $url;
 		}
+		//消失的文章檢查
 		function hiddcheck(){
-			
+			//刪除未查到及刪除的文章
 			D("article")->where("`classif` LIKE '%html%'")->delete();
 			//$wh=utf8_encode("公告");
 			//D("article")->where("hidd=0 and status=1 and url like '%".$wh."%'")->data("status=0")->save();
-			
+			//抓出10筆最後更新的資料
 			$article=D("article")->where("hidd=0 and status=1")->limit("10")->order("uptime asc")->select();
 			foreach ($article as $key => $value) {
 				$url=utf8_decode($value['url']);
@@ -152,6 +165,7 @@
 			$number=str_replace("</span>", "", $number);
 			$number=str_replace(",", "", $number);
 			$data[alike]=$number;
+			//如果標題變dcard代表已經不見了
 				if($match[0]=='<title data-react-helmet="true">Dcard</title>'){
 					$data['hidd']=1;
 				}
@@ -160,28 +174,5 @@
 				unset($data);
 			}
 			
-		}
-		function test(){
-			$url="https://www.dcard.tw/f/relationship/p/226287308-%EF%BC%83%E6%9B%B4-%E4%BD%A0%E5%A7%90%E6%AF%94%E4%BD%A0%E6%AD%A3";
-				$content=file_get_contents($url);
-			preg_match("/喜歡 ^[0-9-,]+<\/span>/", $content,$match);
-			$number=str_replace("喜歡 ", "", $match[0]);
-			$number=str_replace("</span>", "", $number);
-			$number=str_replace(",", "", $number);
-			dump($match);
-
-
-
-		}
-		function deurl(){
-ini_set('memory_limit', '256M');
-
-			$article=D("article")->select();
-			foreach ($article as $key => $value) {
-
-				$data['url']=str_replace("'","",$value['url']);
-				D("article")->where("id=".$value['id'])->data($data)->save();
-				# code...
-			}
 		}
 	}	//http://together.nuucloud.com/index.php/Ajax/article.html	

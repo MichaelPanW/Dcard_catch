@@ -19,6 +19,7 @@
     <meta data-react-helmet="true" property="og:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta data-react-helmet="true" name="twitter:description" content="不想錯過任何有趣的文章嗎？趕快加入我們吧！" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msvalidate.01" content="6E4D4E75083A861C9474E10BF25DC888" />
 </head>
 
 <body>
@@ -29,10 +30,13 @@
                 <p class="logo">
                     <img src="/Public/Dcard/image/face.png" /></p>
             </a>
+            		<a href="<?php echo u('Ajax/index');?>"><input type="button" class="btn btn-danger" value="爬蟲區" ></a>
         </div>
+
         <div id="navbar" class="navbar-collapse  navbar-right">
             <form action="<?php echo u('Index/index');?>" class="navbar-form form-inline " method="get" role="form">
                 <ul class="nav navbar-nav search_ul " style="padding-left: 50px ">
+
                     <li class="form-group">
                         <input type="text" name="title" class="form-inline form-control" placeholder="搜尋" value="<?php echo ($_GET['title']); ?>">
                     </li>
@@ -46,7 +50,10 @@
                     </li>
                     <li class="form-group">
                         <input type="submit" class="btn btn-default" value="搜尋">
-                    </li>
+                    </li> 
+                    <li class="">
+
+                </li>
                 </ul>
                 <br>
                 <div class="checkbox form-group" style="color:#fff;float:right">

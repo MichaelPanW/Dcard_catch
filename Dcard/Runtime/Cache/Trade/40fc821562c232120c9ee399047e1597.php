@@ -1,20 +1,18 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>爬蟲區</title>
+	<title>Document</title>
 </head>
 <body onload="initial();">
 	
 <p>倒數時間:</p>
 <div id="countdown"> </div> 
-<p>計時結束會抓一次</p>
 <div id="box"></div>
 </body>
-<script src="__PUBLIC__/js/jquery/jquery-1.12.4.js"></script>
+<script src="/Public/Dcard/js/jquery/jquery-1.12.4.js"></script>
 <script type="text/javascript">
-//倒數計時區
-var time=1800;//30分鐘抓一次
+var time=1800;
 var countdownnumber=time;
 var countdownid,x;
 function initial(){
@@ -31,16 +29,13 @@ function countdownfunc(){
   }
   countdownnumber--;
 }
-//頁面開始時執行第一次
 oneturn();
-
 	function oneturn(){
-        //抓最新以及最熱門標題跟網址
         $.ajax({
             method: 'get',
             data: {
             },
-            url: "{:u('Ajax/article')}",
+            url: "<?php echo u('Ajax/article');?>",
             success: function(res) {
                 //alert(res);
                 $("<span>"+res+"<span>").insertAfter("#box");
@@ -51,12 +46,11 @@ oneturn();
             }
 
         });
-        //檢查資料遺失
         $.ajax({
             method: 'get',
             data: {
             },
-            url: "{:u('Ajax/hiddcheck')}",
+            url: "<?php echo u('Ajax/hiddcheck');?>",
             success: function(res) {
             },
             error: function(request, error) {
@@ -65,14 +59,12 @@ oneturn();
             }
 
         });
-        //逐分類查詢內文
-    <foreach name="classif" item="vo">
-        $.ajax({
+<?php if(is_array($classif)): foreach($classif as $key=>$vo): ?>$.ajax({
             method: 'get',
             data: {
-                class: "{$vo[tag]}"
+                class: "<?php echo ($vo[tag]); ?>"
             },
-            url: "{:u('Ajax/content')}",
+            url: "<?php echo u('Ajax/content');?>",
             success: function(res) {
                 //alert(res);
                 $("<span>"+res+"<span>").insertAfter("#box");
@@ -82,8 +74,7 @@ oneturn();
                 console.log(request);
             }
 
-        });
-	</foreach>
+        });<?php endforeach; endif; ?>
 }
 </script>
 </html>

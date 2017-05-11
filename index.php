@@ -13,8 +13,8 @@ define('PHOTONICCMS', './Dcard');
 define('CMS_DATA', './CmsData');
 define('UPLOAD_PATH', './Uploads');
 define('URL_MODEL', 'PATHINFO');
-define('APP_DEBUG', true); // true=debug
-define('NO_CACHE_RUNTIME', true); // true=debug
+define('APP_DEBUG', false); // true=debug
+define('NO_CACHE_RUNTIME', false); // true=debug
 //define('APP_NAME', 'Erp'); //3.0 down version
 // 不想使用預設的 Home
 define('BIND_MODULE','Trade');
