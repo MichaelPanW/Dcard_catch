@@ -136,10 +136,10 @@
 		function hiddcheck(){
 			
 			D("article")->where("`classif` LIKE '%html%'")->delete();
-			$wh=utf8_encode("公告");
-			D("article")->where("hidd=0 and status=1 and url like '%".$wh."%'")->data("status=0")->save();
+			//$wh=utf8_encode("公告");
+			//D("article")->where("hidd=0 and status=1 and url like '%".$wh."%'")->data("status=0")->save();
 			
-			$article=D("article")->where("hidd=0 and status=1")->limit("100")->order("uptime asc")->select();
+			$article=D("article")->where("hidd=0 and status=1")->limit("10")->order("uptime asc")->select();
 			foreach ($article as $key => $value) {
 				$url=utf8_decode($value['url']);
 				
