@@ -1,4 +1,4 @@
-# Dcard_catch
+# Dcard_php_reptile Dcard爬蟲實作
 這是實作利用爬蟲 抓取Dcard文章的專案
 
 用的是thinkphp框架
@@ -17,7 +17,6 @@
 抓各分類熱門及最新文章
 標題 url 按讚數節取出來
 並轉碼存進資料庫
-
 
 #Ajax/content
 負責將抓到的url
